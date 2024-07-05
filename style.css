@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+   width: 650px;
+   height: 450px;
+}
+
+.container{
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+    padding: 8% 15%;
+}
