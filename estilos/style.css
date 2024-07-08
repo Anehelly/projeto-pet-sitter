@@ -15,7 +15,7 @@
     --cor-secundaria: #8C5E5A;
     --cor-terciaria: #8C5E5A;
     --cor-quaternaria: #BF9A84;
-    --cor-destaque: #E39D61;
+    --cor-destaque: #e79751;
 
     --fonte-primaria:"Lobster Two", sans-serif;
     --fonte-secundaria:"Montserrat", sans-serif;
@@ -116,9 +116,19 @@ span{
     color: var(--cor-primaria);
 }
 
+
+.container__conteudo__texto{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: var(--cor-terciaria);
+    font-size: 15px;
+    text-align: left;
+    font-family: var(--fonte-secundaria);
+}
+
 .rodape{
     background-color:var(--cor-quaternaria);
-    color: var(--cor-primaria);
+    color: black;
     text-align: center;
     padding: 10px;
     font-size: 20px;
@@ -128,20 +138,12 @@ span{
 
 .autor{
     text-decoration: none;
-    color: var(--cor-primaria);    
+    color: black;  
 }
 
 .autor:hover{
-    color:var(--cor-destaque);
-}
-
-.container__conteudo__texto{
-    padding-top: 10px;
-    padding-bottom: 15px;
-    color: var(--cor-terciaria);
-    font-size: 15px;
-    text-align: left;
-    font-family: var(--fonte-secundaria);
+    color:var(--cor-terciaria);
+    font-weight: 600;
 }
 
 
