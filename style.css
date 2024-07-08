@@ -21,8 +21,8 @@
 }
 
 html, body {
-    height: 100%;
-    margin: 0;
+    height: 100vh;
+    height: 100vw;
 } 
 body{
     background-color: var(--cor-primaria);
